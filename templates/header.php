@@ -22,7 +22,7 @@
                     <a class="nav-link" href="?page=home">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?page=Blog">Blog</a>
+                    <a class="nav-link" href="?page=blog">Blog</a>
                 </li>
             </ul>
         </div>

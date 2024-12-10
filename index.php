@@ -12,6 +12,8 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
         // show the body based on the page var
         if ($page == 'home') {
             require 'templates/home.php';
+        }elseif ($page == 'blog') {
+            require 'templates/blog.php';
         }
     ?>
 
