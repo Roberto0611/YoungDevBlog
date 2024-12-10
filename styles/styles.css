@@ -1,0 +1,35 @@
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.banner {
+    background-color: #007acc;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about {
+    background-color: #252526;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+
+.blog-post {
+    background-color: #2d2d2d;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
