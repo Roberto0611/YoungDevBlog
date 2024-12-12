@@ -24,12 +24,4 @@
             <h3>Título del Blog 1</h3>
             <p>Resumen del contenido del blog 1. <a href="#">Leer más...</a></p>
         </div>
-        <div class="blog-post">
-            <h3>Título del Blog 2</h3>
-            <p>Resumen del contenido del blog 2. <a href="#">Leer más...</a></p>
-        </div>
-        <div class="blog-post">
-            <h3>Título del Blog 3</h3>
-            <p>Resumen del contenido del blog 3. <a href="#">Leer más...</a></p>
-        </div>
     </div>
