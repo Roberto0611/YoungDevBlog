@@ -20,8 +20,10 @@
     <!-- Últimos Blogs -->
     <div class="container my-5">
         <h2>Últimos Blogs</h2>
-        <div class="blog-post">
-            <h3>Título del Blog 1</h3>
-            <p>Resumen del contenido del blog 1. <a href="#">Leer más...</a></p>
-        </div>
+        <?php foreach ($RecentPosts as $blog): ?>  
+            <div class="blog-post">
+                <h3><?php echo $blog["title"] ?></h3> <!-- aqui debemos agregar el url a la pagina con el blog -->
+                <p><?php echo $blog["excerpt"] ?> <br> <a href="#">Leer más...</a></p>
+            </div>
+        <?php endforeach ?>
     </div>

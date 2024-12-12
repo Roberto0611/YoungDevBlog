@@ -4,6 +4,7 @@
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
 $allBlogs = getAllPosts();
+$RecentPosts = getRecentPosts();
 ?>
 
 <!-- header -->
@@ -18,7 +19,6 @@ $allBlogs = getAllPosts();
             require 'templates/blog.php';
         }
     ?>
-
 
 <!-- footer -->
 <?php require('templates/footer.php') ?>

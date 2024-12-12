@@ -19,10 +19,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="?page=home">Inicio</a>
+                    <a style="font-size: 20px;" class="nav-link" href="?page=home">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?page=blog">Blog</a>
+                    <a style="font-size: 20px;" class="nav-link" href="?page=blog">Blog</a>
                 </li>
             </ul>
         </div>
