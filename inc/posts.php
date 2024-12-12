@@ -18,3 +18,12 @@ function getRecentPosts() {
 }
 return mysqli_fetch_all($result, MYSQLI_ASSOC);
 }
+
+function getPostByID($id) {
+  global $app_db;
+  $result = mysqli_query($app_db,"SELECT * FROM posts WHERE ID = $id");
+  if (!$result) {
+  die(mysqli_error($app_db));
+}
+return mysqli_fetch_all($result, MYSQLI_ASSOC);
+}

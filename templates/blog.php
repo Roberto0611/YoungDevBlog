@@ -9,7 +9,7 @@
         <h2>Últimos Blogs</h2>
         <?php foreach ($allBlogs as $blog): ?>  
             <div class="blog-post">
-                <h3><?php echo $blog["title"] ?></h3> <!-- aqui debemos agregar el url a la pagina con el blog -->
+                <a href="?page=readBlog&id=<?php echo $blog["ID"] ?>"><h3 ><?php echo $blog["title"] ?></h3></a> 
                 <p><?php echo $blog["excerpt"] ?> <br> <a href="#">Leer más...</a></p>
             </div>
         <?php endforeach ?>
