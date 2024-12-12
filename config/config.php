@@ -7,7 +7,7 @@ define('SITE_TIMEZONE','America/Tijuana');
 define( 'DB_HOST', 'localhost' );
 define( 'DB_USER', 'root' );
 define( 'DB_PASSWORD', 'Roberto0611#' );
-define( 'DB_DATABASE', 'microcms' );
+define( 'DB_DATABASE', 'youngdevblog' );
 define( 'DB_PORT', '3307' );
 
 define('ADMINE_USER',"Roberto");

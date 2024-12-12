@@ -2,6 +2,8 @@
 <?php 
 // get the variables in the url
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
+
+$allBlogs = getAllPosts();
 ?>
 
 <!-- header -->
@@ -16,6 +18,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
             require 'templates/blog.php';
         }
     ?>
+
 
 <!-- footer -->
 <?php require('templates/footer.php') ?>
